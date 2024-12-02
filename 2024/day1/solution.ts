@@ -1,4 +1,18 @@
-import { inputParser } from './parser'
+import { inputParser } from '@helpers/fileReader'
+
+function getInput() {
+	let stack1: number[] = [],
+		stack2: number[] = []
+
+	const dataByLine = inputParser('2024/day1/input.txt') as string[]
+	dataByLine.forEach((el) => {
+		const [odd, even] = el.split(/\s+/)
+		stack1.push(+odd)
+		stack2.push(+even)
+	})
+
+	return { stack1, stack2 }
+}
 
 //* 1st solution
 // function findTotalDistanceOfSmallestValues(stack1: number[], stack2: number[]) {
@@ -13,10 +27,6 @@ import { inputParser } from './parser'
 // 	return totalDistance
 // }
 
-// const { stack1, stack2 } = inputParser()
-
-// console.log(findTotalDistanceOfSmallestValues(stack1, stack2))
-
 //* 2nd solution
 // function findTotalAppearedValues(stack1: number[], stack2: number[]) {
 // 	let total = 0
@@ -29,7 +39,3 @@ import { inputParser } from './parser'
 
 // 	return total
 // }
-
-// const { stack1, stack2 } = inputParser()
-
-// console.log(findTotalAppearedValues(stack1, stack2))
