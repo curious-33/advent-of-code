@@ -5,9 +5,9 @@
 ### Daily Progress
 | Day | Problem | Language | Status | Time | Difficulty | Key Insights |
 |-----|---------|----------|--------|------|------------|--------------|
-| 1   | [Historian Hysteria](https://adventofcode.com/2024/day/1" target="_blank)
+| 1   | [Historian Hysteria](https://adventofcode.com/2024/day/1?target=_blank)
  | Typescript | ✅ | 45m | Easy | Learned string manipulation |
-| 2   | [Red-Nosed Reports](https://adventofcode.com/2024/day/2" target="_blank) | Typescript | 🔄 | 1h | Medium | Practiced parsing complex inputs |
+| 2   | [Red-Nosed Reports](https://adventofcode.com/2024/day/2?target=_blank) | Typescript | 🔄 | 1h | Medium | Practiced parsing complex inputs |
 | 3   | Gear Ratios | Python | 🔄 | - | Hard | Working on efficient algorithm |
 | 4-25 | Pending | - | ❌ | - | - | - |
 
