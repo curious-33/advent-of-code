@@ -49,33 +49,19 @@ function getInput() {
 
 //* 2nd solution
 function isSafeRow(data: number[]) {
-	let increase = 0,
-		decrease = 0,
-		zeros = 0
+	let inc = 0,
+		dec = 0
 	for (let i = 0; i < data.length - 1; i++) {
-		if (data[i] >= data[i + 1]) {
-			decrease++
-		} else {
-			increase++
-		}
-		const value = Math.abs(data[i] - data[i + 1])
-		if (value === 0) zeros++
-		if (value > 3) {
+		if (data[i] > data[i + 1]) dec++
+		else if (data[i] < data[i + 1]) inc++
+
+		if (Math.abs(data[i] - data[i + 1]) > 3) {
 			return false
 		}
 	}
 
-	const dataLength = data.length - 1
-
-	if (
-		(increase === dataLength && zeros <= 1) ||
-		(decrease === dataLength && zeros <= 1)
-	) {
-		return true
-	} else if (
-		(increase === dataLength - 1 && zeros !== 1) ||
-		(decrease === dataLength - 1 && zeros !== 1)
-	) {
+	const len = data.length - 1
+	if (inc === len || dec === len || inc === len - 1 || dec === len - 1) {
 		return true
 	}
 
