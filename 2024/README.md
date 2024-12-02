@@ -5,8 +5,9 @@
 ### Daily Progress
 | Day | Problem | Language | Status | Time | Difficulty | Key Insights |
 |-----|---------|----------|--------|------|------------|--------------|
-| 1   | Historian Hysteria | Python | 🔄 | 45m | Easy | Learned string manipulation |
-| 2   | Cube Conundrum | Python | ✅ | 1h | Medium | Practiced parsing complex inputs |
+| 1   | Historian Hysteria(https://adventofcode.com/2024/day/1){:target="_blank"}
+ | Typescript | ✅ | 45m | Easy | Learned string manipulation |
+| 2   | Red-Nosed Reports(https://adventofcode.com/2024/day/2){:target="_blank"} | Typescript | 🔄 | 1h | Medium | Practiced parsing complex inputs |
 | 3   | Gear Ratios | Python | 🔄 | - | Hard | Working on efficient algorithm |
 | 4-25 | Pending | - | ❌ | - | - | - |
 
@@ -15,25 +16,6 @@
 - **Languages Used:** Python
 - **Total Time Invested:** 1h 45m
 - **Most Challenging Day:** Day 3
-
-## 📊 Code Repository Structure
-advent-of-code/
-│
-├── 2024/
-│   ├── day1/
-|   │   ├── solution.ts
-|   │   └── input.txt
-│   └───day2/
-│       ├── solution.ts
-│       └── input.txt
-├── 2025/
-│   ├── day1/
-|   │   ├── solution.ts
-|   │   └── input.txt
-│   └───day2/
-│       ├── solution.ts
-│       └── input.txt
-└── README.md
 
 **Solution Strategy:**
 - Created helper functions for input parsing
@@ -58,6 +40,6 @@ advent-of-code/
 
 ---
 
-*Last Updated: December 1, 2024*
+*Last Updated: December 2, 2024*
 
 🚀 **Coding Adventure in Progress!** 🚀
