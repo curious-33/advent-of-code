@@ -1,0 +1,15 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "Coding challenge",
+  "main": "index.js",
+  "repository": "git@github-personal:curious-33/advent-of-code.git",
+  "author": "Curious <curious.startpro@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

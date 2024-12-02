@@ -20,19 +20,19 @@
 advent-of-code/
 │
 ├── 2024/
-│    ├── day1/
-|    │   ├── solution.py
-|    │   └── input.txt
-│    └─── day2/
-│        ├── solution.py
-│        └── input.txt
+│   ├── day1/
+|   │   ├── solution.ts
+|   │   └── input.txt
+│   └───day2/
+│       ├── solution.ts
+│       └── input.txt
 ├── 2025/
-│    ├── day1/
-|    │   ├── solution.py
-|    │   └── input.txt
-│    └─── day2/
-│        ├── solution.py
-│        └── input.txt
+│   ├── day1/
+|   │   ├── solution.ts
+|   │   └── input.txt
+│   └───day2/
+│       ├── solution.ts
+│       └── input.txt
 └── README.md
 
 **Solution Strategy:**
