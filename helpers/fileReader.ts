@@ -3,13 +3,7 @@ import path from 'node:path'
 
 export function inputParser(filePath: string) {
 	try {
-		const data = fs.readFileSync(
-			path.resolve(__dirname, '../', filePath),
-			'utf-8'
-		)
-		const dataByLine = data.split('\n')
-
-		return dataByLine
+		return fs.readFileSync(path.resolve(__dirname, '../', filePath), 'utf-8')
 	} catch (err) {
 		return null
 	}

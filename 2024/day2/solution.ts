@@ -1,7 +1,8 @@
 import { inputParser } from '@helpers/fileReader'
 
 function getInput() {
-	const dataByLine = inputParser('2024/day2/input.txt') as string[]
+	const inputData = inputParser('2024/day2/input.txt') as string
+	const dataByLine = inputData.split('\n')
 	const data: Array<number[]> = []
 
 	dataByLine.forEach((el) => {

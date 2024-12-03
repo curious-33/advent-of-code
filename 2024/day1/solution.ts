@@ -1,10 +1,11 @@
 import { inputParser } from '@helpers/fileReader'
 
 function getInput() {
+	const data = inputParser('2024/day1/input.txt') as string
 	let stack1: number[] = [],
 		stack2: number[] = []
 
-	const dataByLine = inputParser('2024/day1/input.txt') as string[]
+	const dataByLine = data.split('\n')
 	dataByLine.forEach((el) => {
 		const [odd, even] = el.split(/\s+/)
 		stack1.push(+odd)
